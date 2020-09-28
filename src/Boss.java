@@ -9,6 +9,12 @@ public class Boss  extends GameEntity{
         this.weapon = weapon;
     }
 
+    public Boss(){}
+
+    public  void printInfo(){
+        System.out.println(" Weapon:" + getWeapon() + " " + "Boss damage:" + getDamage() + "" +
+                " Boss health:" + getHealth());
+    }
     }
 
 

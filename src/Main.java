@@ -8,8 +8,7 @@ public class Main {
         boss.setDamage(50);
         boss.setHealth(500);
 
-        System.out.println( " Weapon:" + boss.getWeapon() + " " + "Boss damage:" + boss.getDamage() + "" +
-                " Boss health:" + boss.getHealth());
+        boss.printInfo();
 
 
 
