@@ -4,13 +4,11 @@ public class Main {
 	// write your code here
 
         Boss boss = new Boss();
-        boss.setWeapon("Random stone from ground");
+
         boss.setDamage(50);
         boss.setHealth(500);
+        boss.setWeapon(new Weapon("Automat"," AK-47"));
 
         boss.printInfo();
-
-
-
     }
 }
